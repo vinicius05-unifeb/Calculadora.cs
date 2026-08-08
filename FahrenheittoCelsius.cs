@@ -10,13 +10,13 @@ namespace CalcPOO
     {
         public double FahrenheitValue { get; private set; }
 
-        public double ConvertToFahrenheit(double valor)
+        public double ConvertToCelsius(double valor)
         {
             if (valor < 0)
                 throw new ArgumentOutOfRangeException(nameof(valor), "O valor de Fahrenheit não pode ser menor que o zero absoluto.");
 
             FahrenheitValue = valor;
-            return (5 / 9) * (FahrenheitValue - 32);
+            return (5.0 / 9.0) * (FahrenheitValue - 32);
         }
     }
 }

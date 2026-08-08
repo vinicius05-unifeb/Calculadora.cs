@@ -154,7 +154,7 @@
             label1.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
             label1.Location = new Point(20, 17);
             label1.Name = "label1";
-            label1.Size = new Size(56, 19);
+            label1.Size = new Size(69, 23);
             label1.TabIndex = 0;
             label1.Text = "Entrada";
             // 
@@ -163,7 +163,7 @@
             rbCelsius.AutoSize = true;
             rbCelsius.Location = new Point(20, 56);
             rbCelsius.Name = "rbCelsius";
-            rbCelsius.Size = new Size(69, 23);
+            rbCelsius.Size = new Size(83, 27);
             rbCelsius.TabIndex = 1;
             rbCelsius.TabStop = true;
             rbCelsius.Text = "Celsius";
@@ -174,7 +174,7 @@
             rbFahrenheit.AutoSize = true;
             rbFahrenheit.Location = new Point(20, 92);
             rbFahrenheit.Name = "rbFahrenheit";
-            rbFahrenheit.Size = new Size(92, 23);
+            rbFahrenheit.Size = new Size(111, 27);
             rbFahrenheit.TabIndex = 2;
             rbFahrenheit.TabStop = true;
             rbFahrenheit.Text = "Fahrenheit";
@@ -185,7 +185,7 @@
             rbKelvin.AutoSize = true;
             rbKelvin.Location = new Point(20, 128);
             rbKelvin.Name = "rbKelvin";
-            rbKelvin.Size = new Size(63, 23);
+            rbKelvin.Size = new Size(76, 27);
             rbKelvin.TabIndex = 3;
             rbKelvin.TabStop = true;
             rbKelvin.Text = "Kelvin";
@@ -196,7 +196,7 @@
             txtEntrada.Dock = DockStyle.Fill;
             txtEntrada.Location = new Point(3, 190);
             txtEntrada.Name = "txtEntrada";
-            txtEntrada.Size = new Size(209, 25);
+            txtEntrada.Size = new Size(209, 30);
             txtEntrada.TabIndex = 1;
             // 
             // tableLayoutPanel4
@@ -244,7 +244,7 @@
             label2.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
             label2.Location = new Point(20, 17);
             label2.Name = "label2";
-            label2.Size = new Size(43, 19);
+            label2.Size = new Size(51, 23);
             label2.TabIndex = 0;
             label2.Text = "Saída";
             // 
@@ -253,7 +253,7 @@
             rbCelsius2.AutoSize = true;
             rbCelsius2.Location = new Point(20, 56);
             rbCelsius2.Name = "rbCelsius2";
-            rbCelsius2.Size = new Size(69, 23);
+            rbCelsius2.Size = new Size(83, 27);
             rbCelsius2.TabIndex = 1;
             rbCelsius2.TabStop = true;
             rbCelsius2.Text = "Celsius";
@@ -264,7 +264,7 @@
             rbFahrenheit2.AutoSize = true;
             rbFahrenheit2.Location = new Point(20, 92);
             rbFahrenheit2.Name = "rbFahrenheit2";
-            rbFahrenheit2.Size = new Size(92, 23);
+            rbFahrenheit2.Size = new Size(111, 27);
             rbFahrenheit2.TabIndex = 2;
             rbFahrenheit2.TabStop = true;
             rbFahrenheit2.Text = "Fahrenheit";
@@ -275,7 +275,7 @@
             rbKelvin2.AutoSize = true;
             rbKelvin2.Location = new Point(20, 128);
             rbKelvin2.Name = "rbKelvin2";
-            rbKelvin2.Size = new Size(63, 23);
+            rbKelvin2.Size = new Size(76, 27);
             rbKelvin2.TabIndex = 3;
             rbKelvin2.TabStop = true;
             rbKelvin2.Text = "Kelvin";
@@ -287,7 +287,7 @@
             txtSaída.Location = new Point(3, 189);
             txtSaída.Name = "txtSaída";
             txtSaída.ReadOnly = true;
-            txtSaída.Size = new Size(209, 25);
+            txtSaída.Size = new Size(209, 30);
             txtSaída.TabIndex = 2;
             // 
             // btnConverter
@@ -304,7 +304,7 @@
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 17F);
+            AutoScaleDimensions = new SizeF(9F, 23F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(482, 335);
             Controls.Add(tableLayoutPanel1);
