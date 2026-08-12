@@ -72,7 +72,7 @@
             tableLayoutPanel1.RowCount = 2;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 82.72059F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 17.2794113F));
-            tableLayoutPanel1.Size = new Size(482, 335);
+            tableLayoutPanel1.Size = new Size(473, 351);
             tableLayoutPanel1.TabIndex = 0;
             // 
             // panel1
@@ -81,7 +81,7 @@
             panel1.Dock = DockStyle.Fill;
             panel1.Location = new Point(20, 20);
             panel1.Name = "panel1";
-            panel1.Size = new Size(442, 242);
+            panel1.Size = new Size(433, 256);
             panel1.TabIndex = 0;
             // 
             // tableLayoutPanel2
@@ -97,7 +97,7 @@
             tableLayoutPanel2.RowCount = 1;
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 480F));
-            tableLayoutPanel2.Size = new Size(442, 242);
+            tableLayoutPanel2.Size = new Size(433, 256);
             tableLayoutPanel2.TabIndex = 0;
             // 
             // tableLayoutPanel3
@@ -115,7 +115,7 @@
             tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 79.375F));
             tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 20.625F));
             tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Absolute, 23F));
-            tableLayoutPanel3.Size = new Size(215, 236);
+            tableLayoutPanel3.Size = new Size(210, 250);
             tableLayoutPanel3.TabIndex = 0;
             // 
             // panel2
@@ -124,7 +124,7 @@
             panel2.Dock = DockStyle.Fill;
             panel2.Location = new Point(3, 3);
             panel2.Name = "panel2";
-            panel2.Size = new Size(209, 181);
+            panel2.Size = new Size(204, 192);
             panel2.TabIndex = 0;
             // 
             // tableLayoutPanel5
@@ -145,7 +145,7 @@
             tableLayoutPanel5.RowStyles.Add(new RowStyle(SizeType.Percent, 25F));
             tableLayoutPanel5.RowStyles.Add(new RowStyle(SizeType.Percent, 25F));
             tableLayoutPanel5.RowStyles.Add(new RowStyle(SizeType.Percent, 25F));
-            tableLayoutPanel5.Size = new Size(209, 181);
+            tableLayoutPanel5.Size = new Size(204, 192);
             tableLayoutPanel5.TabIndex = 0;
             // 
             // label1
@@ -154,16 +154,16 @@
             label1.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
             label1.Location = new Point(20, 17);
             label1.Name = "label1";
-            label1.Size = new Size(69, 23);
+            label1.Size = new Size(56, 19);
             label1.TabIndex = 0;
             label1.Text = "Entrada";
             // 
             // rbCelsius
             // 
             rbCelsius.AutoSize = true;
-            rbCelsius.Location = new Point(20, 56);
+            rbCelsius.Location = new Point(20, 59);
             rbCelsius.Name = "rbCelsius";
-            rbCelsius.Size = new Size(83, 27);
+            rbCelsius.Size = new Size(69, 23);
             rbCelsius.TabIndex = 1;
             rbCelsius.TabStop = true;
             rbCelsius.Text = "Celsius";
@@ -172,9 +172,9 @@
             // rbFahrenheit
             // 
             rbFahrenheit.AutoSize = true;
-            rbFahrenheit.Location = new Point(20, 92);
+            rbFahrenheit.Location = new Point(20, 98);
             rbFahrenheit.Name = "rbFahrenheit";
-            rbFahrenheit.Size = new Size(111, 27);
+            rbFahrenheit.Size = new Size(92, 23);
             rbFahrenheit.TabIndex = 2;
             rbFahrenheit.TabStop = true;
             rbFahrenheit.Text = "Fahrenheit";
@@ -183,9 +183,9 @@
             // rbKelvin
             // 
             rbKelvin.AutoSize = true;
-            rbKelvin.Location = new Point(20, 128);
+            rbKelvin.Location = new Point(20, 137);
             rbKelvin.Name = "rbKelvin";
-            rbKelvin.Size = new Size(76, 27);
+            rbKelvin.Size = new Size(63, 23);
             rbKelvin.TabIndex = 3;
             rbKelvin.TabStop = true;
             rbKelvin.Text = "Kelvin";
@@ -194,9 +194,9 @@
             // txtEntrada
             // 
             txtEntrada.Dock = DockStyle.Fill;
-            txtEntrada.Location = new Point(3, 190);
+            txtEntrada.Location = new Point(3, 201);
             txtEntrada.Name = "txtEntrada";
-            txtEntrada.Size = new Size(209, 30);
+            txtEntrada.Size = new Size(204, 25);
             txtEntrada.TabIndex = 1;
             // 
             // tableLayoutPanel4
@@ -208,12 +208,12 @@
             tableLayoutPanel4.Controls.Add(tableLayoutPanel6, 0, 0);
             tableLayoutPanel4.Controls.Add(txtSaída, 0, 1);
             tableLayoutPanel4.Dock = DockStyle.Fill;
-            tableLayoutPanel4.Location = new Point(224, 3);
+            tableLayoutPanel4.Location = new Point(219, 3);
             tableLayoutPanel4.Name = "tableLayoutPanel4";
             tableLayoutPanel4.RowCount = 2;
             tableLayoutPanel4.RowStyles.Add(new RowStyle(SizeType.Percent, 79.09091F));
             tableLayoutPanel4.RowStyles.Add(new RowStyle(SizeType.Percent, 20.90909F));
-            tableLayoutPanel4.Size = new Size(215, 236);
+            tableLayoutPanel4.Size = new Size(211, 250);
             tableLayoutPanel4.TabIndex = 1;
             // 
             // tableLayoutPanel6
@@ -235,7 +235,7 @@
             tableLayoutPanel6.RowStyles.Add(new RowStyle(SizeType.Percent, 25F));
             tableLayoutPanel6.RowStyles.Add(new RowStyle(SizeType.Percent, 25F));
             tableLayoutPanel6.RowStyles.Add(new RowStyle(SizeType.Percent, 25F));
-            tableLayoutPanel6.Size = new Size(209, 180);
+            tableLayoutPanel6.Size = new Size(205, 191);
             tableLayoutPanel6.TabIndex = 1;
             // 
             // label2
@@ -244,16 +244,16 @@
             label2.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
             label2.Location = new Point(20, 17);
             label2.Name = "label2";
-            label2.Size = new Size(51, 23);
+            label2.Size = new Size(43, 19);
             label2.TabIndex = 0;
             label2.Text = "Saída";
             // 
             // rbCelsius2
             // 
             rbCelsius2.AutoSize = true;
-            rbCelsius2.Location = new Point(20, 56);
+            rbCelsius2.Location = new Point(20, 59);
             rbCelsius2.Name = "rbCelsius2";
-            rbCelsius2.Size = new Size(83, 27);
+            rbCelsius2.Size = new Size(69, 23);
             rbCelsius2.TabIndex = 1;
             rbCelsius2.TabStop = true;
             rbCelsius2.Text = "Celsius";
@@ -262,9 +262,9 @@
             // rbFahrenheit2
             // 
             rbFahrenheit2.AutoSize = true;
-            rbFahrenheit2.Location = new Point(20, 92);
+            rbFahrenheit2.Location = new Point(20, 98);
             rbFahrenheit2.Name = "rbFahrenheit2";
-            rbFahrenheit2.Size = new Size(111, 27);
+            rbFahrenheit2.Size = new Size(92, 23);
             rbFahrenheit2.TabIndex = 2;
             rbFahrenheit2.TabStop = true;
             rbFahrenheit2.Text = "Fahrenheit";
@@ -273,9 +273,9 @@
             // rbKelvin2
             // 
             rbKelvin2.AutoSize = true;
-            rbKelvin2.Location = new Point(20, 128);
+            rbKelvin2.Location = new Point(20, 137);
             rbKelvin2.Name = "rbKelvin2";
-            rbKelvin2.Size = new Size(76, 27);
+            rbKelvin2.Size = new Size(63, 23);
             rbKelvin2.TabIndex = 3;
             rbKelvin2.TabStop = true;
             rbKelvin2.Text = "Kelvin";
@@ -284,19 +284,19 @@
             // txtSaída
             // 
             txtSaída.Dock = DockStyle.Fill;
-            txtSaída.Location = new Point(3, 189);
+            txtSaída.Location = new Point(3, 200);
             txtSaída.Name = "txtSaída";
             txtSaída.ReadOnly = true;
-            txtSaída.Size = new Size(209, 30);
+            txtSaída.Size = new Size(205, 25);
             txtSaída.TabIndex = 2;
             // 
             // btnConverter
             // 
             btnConverter.Dock = DockStyle.Fill;
             btnConverter.Font = new Font("Segoe UI", 10F);
-            btnConverter.Location = new Point(20, 268);
+            btnConverter.Location = new Point(20, 282);
             btnConverter.Name = "btnConverter";
-            btnConverter.Size = new Size(442, 47);
+            btnConverter.Size = new Size(433, 49);
             btnConverter.TabIndex = 1;
             btnConverter.Text = "Converter";
             btnConverter.UseVisualStyleBackColor = true;
@@ -304,9 +304,9 @@
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(9F, 23F);
+            AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(482, 335);
+            ClientSize = new Size(473, 351);
             Controls.Add(tableLayoutPanel1);
             Font = new Font("Segoe UI", 10F);
             Name = "Form1";
